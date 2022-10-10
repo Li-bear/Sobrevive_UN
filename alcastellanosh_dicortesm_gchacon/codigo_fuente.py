@@ -2670,7 +2670,6 @@ def main():
     Inicializa el diccionario "situaciones", la pantalla del modulo tkinter "screen_inicio", el diccionario
     "dicc_imagenes", el diccionario "dicc_estadisticas", las variables de tipo entero del modulo tkinter
     "Academico", "Salud", "Social", "Economico", y la variable de tipo cadena "txt_situacion".
-    Invoca a la funcion logo_bienvenida()
     Invoca a la funcion menu().
     """
     global txt_situacion, situacion_a_usar
@@ -2693,7 +2692,7 @@ def main():
     screen_inicio.geometry("600x400+100+100")
     screen_inicio.title("Sobreviviendo en la UN")
     screen_inicio.config(bg="black")
-    logo_bienvenida()
+    # logo_bienvenida()
     resultado = False
 
     dicc_imagenes = {}
